@@ -1,0 +1,79 @@
+﻿@model EC.Escola.Dominio.registroNotas
+
+@{
+    ViewBag.Title = "Deletar Registro de Notas";
+}
+
+<h2>Deletar Registro de Notas</h2>
+
+<h3>Você realmente deseja deletar o registro destas Notas?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Aluno")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.aluno.nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Disciplina")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.disciplina.nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nota1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nota1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nota2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nota2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nota3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nota3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nota4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nota4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.media)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.media)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

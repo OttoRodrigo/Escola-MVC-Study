@@ -1,0 +1,6 @@
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\bin\Debug\EC.Escola.Dominio.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\bin\Debug\EC.Escola.Dominio.pdb
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\obj\Debug\EC.Escola.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\obj\Debug\EC.Escola.Dominio.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\obj\Debug\EC.Escola.Dominio.pdb
+C:\Users\Otto_\source\repos\EC.Escola\EC.Escola.Dominio\obj\Debug\EC.Escola.Dominio.csproj.AssemblyReference.cache

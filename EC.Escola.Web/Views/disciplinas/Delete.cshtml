@@ -1,0 +1,31 @@
+﻿@model EC.Escola.Dominio.disciplina
+
+@{
+    ViewBag.Title = "Deletar Disciplina";
+}
+
+<h2>Deletar Disciplina</h2>
+
+<h3>Você tem certeza que deseja excluir o registro dessa disciplina?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

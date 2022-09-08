@@ -1,0 +1,12 @@
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EC.Comum.Entity.dll.config
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EC.Comum.Entity.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EC.Comum.Entity.pdb
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\obj\Debug\EC.Comum.Entity.csproj.AssemblyReference.cache
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\obj\Debug\EC.Comum.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\obj\Debug\EC.Comum.Entity.csproj.CopyComplete
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\obj\Debug\EC.Comum.Entity.dll
+C:\Users\Otto_\source\repos\EC.Escola\EC.Comum.Entity\obj\Debug\EC.Comum.Entity.pdb

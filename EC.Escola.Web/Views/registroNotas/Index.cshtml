@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EC.Escola.Dominio.registroNotas>
+
+@{
+    ViewBag.Title = "Notas";
+}
+
+<h2>Notas</h2>
+
+<p>
+    @Html.ActionLink("Novo Registro", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Aluno")
+        </th>
+        <th>
+            @Html.DisplayName("Disciplina")
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.nota1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota4)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.media)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.situacao)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.aluno.nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.disciplina.nome)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.nota1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nota2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nota3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nota4)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.media)
+        </td>
+        <td>
+            @Html.DisplayFor(m => item.situacao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar Notas", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Ver Notas", "Details", new { id=item.id }) |
+            @Html.ActionLink("Deletar Registro", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
